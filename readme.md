@@ -1,4 +1,3 @@
-
 ### Generative Adversarial Interpolative Autoencoding (GAIA)
 
 #### Authors: Tim Sainburg, Marvin Thielk, Tim Gentner (UCSD)
@@ -19,10 +18,11 @@ The **Generative Adversarial Interpolative Autoencoder (GAIA; [Paper](#); [Blog 
 
 ![Morph Image](images/celeb-attrs.png)
 
-References
+References  
 - Multimodal Unsupervised Image-to-Image Translation ([Paper](https://arxiv.org/abs/1804.04732); [Author implementation](https://github.com/NVlabs/MUNIT); [Tensorflow implementation](https://github.com/taki0112/MUNIT-Tensorflow))
 - [BEGAN](https://arxiv.org/abs/1703.10717)
 - [VAEGAN](https://arxiv.org/abs/1512.09300)
+- Progressively Growing GANs ([Paper](https://arxiv.org/abs/1710.10196), [Code](https://github.com/tkarras/progressive_growing_of_gans))
 
 ```python
 

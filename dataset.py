@@ -282,8 +282,8 @@ def process_img_celeb_hq(celeba_dir,delta_dir,idx, lm, orig_idx, orig_file, proc
     md5 = hashlib.md5()
     md5.update(img.tobytes())
     if md5.hexdigest() != proc_md5:
-        print('Skipping file because hex did not Match')
-        print((md5.hexdigest()), (proc_md5))
+        if verbose: print('Skipping file because hex did not Match')
+        if verbose: print((md5.hexdigest()), (proc_md5))
         return None, None, None, None
     assert md5.hexdigest() == proc_md5
 
@@ -318,7 +318,7 @@ def process_img_celeb_hq(celeba_dir,delta_dir,idx, lm, orig_idx, orig_file, proc
         fig, ax = plt.subplots(nrows=1,ncols=1, figsize=(6,6))
         ax.imshow(im)
         plt.show()
-    return im.astype('uint8').flatten(), top_bottom, left_right, orig_idx
+    return im.flatten().astype('uint8'), top_bottom, left_right, orig_idx
 
 
 def get_fields_landmarks(celeba_dir, delta_dir, num_threads=4, num_tasks=100):

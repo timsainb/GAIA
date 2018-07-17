@@ -2,7 +2,7 @@
 
 #### Authors: Tim Sainburg, Marvin Thielk, Tim Gentner (UCSD)
 
-The **Generative Adversarial Interpolative Autoencoder (GAIA; [Paper](http://timsainburg.com/PDF/GAIA.pdf); [Blog post](http://timsainburg.com/gaia.html#gaia))** is novel hybrid between the Generative Adversarial Network (GAN) and the Autoencoder (AE). The purpose of GAIA is to address three issues which exist in GANs and AEs:
+The **Generative Adversarial Interpolative Autoencoder (GAIA; [Paper](http://timsainburg.com/assets/PDF/GAIA.pdf); [Blog post](http://timsainburg.com/gaia.html#gaia))** is novel hybrid between the Generative Adversarial Network (GAN) and the Autoencoder (AE). The purpose of GAIA is to address three issues which exist in GANs and AEs:
 1. GANs are not bidirectional
 2. Autoencoders produce blurry images
 3. Autoencoder latent spaces are not convex

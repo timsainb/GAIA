@@ -1,6 +1,8 @@
 ### Generative Adversarial Interpolative Autoencoding (GAIA)
 
-#### Authors: Tim Sainburg, Marvin Thielk, Tim Gentner (UCSD)
+**[UPDATE: see an updated version of this code  trained on Fashion MNIST*](https://github.com/timsainb/tensorflow2-generative-models/)*
+
+#### Authors: Tim Sainburg, Marvin Thielk, Brad Theilman, Benjamin Migliori, Tim Gentner (UCSD)
 
 The **Generative Adversarial Interpolative Autoencoder (GAIA; [Paper](http://timsainburg.com/assets/PDF/GAIA.pdf); [Blog post](http://timsainburg.com/gaia.html#gaia))** is novel hybrid between the Generative Adversarial Network (GAN) and the Autoencoder (AE). The purpose of GAIA is to address three issues which exist in GANs and AEs:
 1. GANs are not bidirectional

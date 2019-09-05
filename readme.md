@@ -1,6 +1,5 @@
 ### Generative Adversarial Interpolative Autoencoding (GAIA)
 
-**[UPDATE: see an updated version of this code  trained on Fashion MNIST](https://github.com/timsainb/tensorflow2-generative-models/)**
 
 #### Authors: Tim Sainburg, Marvin Thielk, Brad Theilman, Benjamin Migliori, Tim Gentner (UCSD)
 
